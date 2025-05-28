@@ -1,0 +1,33 @@
+site_name: Vector Documentation
+copyright: Copyright &copy; 2025 Wire + the Project Victor team
+repo_url: https://github.com/os-vector/vector-docs
+repo_name: Vector Community Documents
+edit_uri: edit/master/documents/
+
+use_directory_urls: false
+markdown_extensions:
+  - toc:
+      permalink: true
+  - meta
+
+docs_dir: documents
+extra:
+  generator: false
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search:
+      prebuild_index: true
+  - localsearch
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+  features:
+    - search.suggest
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
