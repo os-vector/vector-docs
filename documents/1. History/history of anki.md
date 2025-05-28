@@ -18,5 +18,8 @@
 -   April 29th, 2019: Anki announced their liquidation.
 -   May 1st, 2019: Anki officially went out of business.
 -   January 2020: Digital Dream Labs announced that they bought the assets.
--   TODO: recount the misdoings of DDL
--   2024: code leaked and hooray!
+-   TODO: recount the misdoings of DDL in this time
+-   July 2023 - September 2024: DDL servers go down due to them not paying the bill for their AWS instance while they were still taking money from their customers
+-   September 2024: DDL gets new CEO Zack Anton and the servers come up a few weeks later.
+-   2024: `victor` and `vicOS-oelinux` leaked to github with encrypted keys.
+-   April 30th, 2025: Vector's keys get cracked and a unlock ota has been released to convert prod bots into dev bots.
