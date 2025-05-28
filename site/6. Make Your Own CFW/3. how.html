@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="1.%201.%20prerequisites.html">
+        <link rel="prev" href="2.%20forking.html">
       
       
         <link rel="next" href="../7.%20Terminology/terminology.html">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Forking - Vector Documentation</title>
+        <title>How to Develop - Vector Documentation</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#forking" class="md-skip">
+        <a href="#how-to-develop" class="md-skip">
           Skip to content
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Forking
+              How to Develop
             
           </span>
         </div>
@@ -764,12 +764,35 @@
   
   
     <li class="md-nav__item">
-      <a href="1.%201.%20prerequisites.html" class="md-nav__link">
+      <a href="1.%20prerequisites.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     Prerequisites
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="2.%20forking.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Forking
     
   </span>
   
@@ -801,7 +824,7 @@
   
   
   <span class="md-ellipsis">
-    Forking
+    How to Develop
     
   </span>
   
@@ -809,12 +832,12 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="2.%202.%20forking.html" class="md-nav__link md-nav__link--active">
+      <a href="3.%20how.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Forking
+    How to Develop
     
   </span>
   
@@ -837,9 +860,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how" class="md-nav__link">
+  <a href="#set-up-your-dev-environment" class="md-nav__link">
     <span class="md-ellipsis">
-      How
+      Set up your dev environment
     </span>
   </a>
   
@@ -963,9 +986,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how" class="md-nav__link">
+  <a href="#set-up-your-dev-environment" class="md-nav__link">
     <span class="md-ellipsis">
-      How
+      Set up your dev environment
     </span>
   </a>
   
@@ -990,39 +1013,12 @@
   
 
 
-<h1 id="forking">Forking<a class="headerlink" href="#forking" title="Permanent link">&para;</a></h1>
-<p>Fork wire-os and its submodules.</p>
-<h2 id="how">How<a class="headerlink" href="#how" title="Permanent link">&para;</a></h2>
-<ol>
-<li>
-<p>Fork these repos. When choosing names, just replace the <code>wire-os</code> parts with the name you desire:</p>
-</li>
-<li>
-<p><a href="https://github.com/os-vector/wire-os">wire-os</a></p>
-</li>
-<li><a href="https://github.com/os-vector/wire-os-victor">wire-os-victor</a></li>
-<li>
-<p><a href="https://github.com/os-vector/wire-os-externals">wire-os-externals</a></p>
-</li>
-<li>
-<p>Let's say, for example, we called it <code>diode-os</code>, and our GitHub username is diode123. Run in a Linux terminal:</p>
-</li>
-</ol>
-<pre><code>cd ~
-git clone https://github.com/diode123/diode-os --recursive
-</code></pre>
-<ol>
-<li>Replace the wire-os-victor submodule with yours:</li>
-</ol>
-<pre><code>cd diode-os
-git rm -f anki/victor
-rm -rf anki/victor .git/modules/anki/victor
-git commit -m &quot;remove wire-os&quot;
-git submodule add https://github.com/diode123/diode-os-victor anki/victor
-</code></pre>
-<ol>
-<li>TODO</li>
-</ol>
+<h1 id="how-to-develop">How to Develop<a class="headerlink" href="#how-to-develop" title="Permanent link">&para;</a></h1>
+<p>The majority of your changes will probably be in the /anki folder, which is built from diode-os-victor.</p>
+<h2 id="set-up-your-dev-environment">Set up your dev environment<a class="headerlink" href="#set-up-your-dev-environment" title="Permanent link">&para;</a></h2>
+<p>You should have two folders: diode-os-victor and diode-os.</p>
+<p>Do NOT just make all of you changes in diode-os/anki/victor, despite it being the same repo. <code>diode-os-victor</code> can be built standalone, and deployed to a robot with <code>rsync</code>. These builds should not end up in a Yocto environment.</p>
+<p>TODO</p>
 
 
 
