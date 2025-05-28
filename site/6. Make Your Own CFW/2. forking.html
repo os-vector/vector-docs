@@ -1016,21 +1016,25 @@
 <h1 id="forking">Forking<a class="headerlink" href="#forking" title="Permanent link">&para;</a></h1>
 <p>Fork wire-os and its submodules.</p>
 <h2 id="how">How<a class="headerlink" href="#how" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Fork these repos. When choosing names, just replace the <code>wire-os</code> parts with the name you desire:</li>
-</ol>
-<p><a href="https://github.com/os-vector/wire-os">wire-os</a>
-<a href="https://github.com/os-vector/wire-os-victor">wire-os-victor</a>
-<a href="https://github.com/os-vector/wire-os-externals">wire-os-externals</a></p>
-<ol>
-<li>Let's say, for example, we called it <code>diode-os</code>, and our GitHub username is diode123. Run in a Linux terminal:</li>
-</ol>
+<ul>
+<li>
+<p>Fork these repos. When choosing names, just replace the <code>wire-os</code> parts with the name you desire:</p>
+<ul>
+<li><a href="https://github.com/os-vector/wire-os">wire-os</a></li>
+<li><a href="https://github.com/os-vector/wire-os-victor">wire-os-victor</a></li>
+<li><a href="https://github.com/os-vector/wire-os-externals">wire-os-externals</a></li>
+</ul>
+</li>
+<li>
+<p>Let's say, for example, we called it <code>diode-os</code>, and our GitHub username is diode123. Run in a Linux terminal:</p>
+</li>
+</ul>
 <pre><code>cd ~
 git clone https://github.com/diode123/diode-os --recursive
 </code></pre>
-<ol>
+<ul>
 <li>Replace the wire-os-victor submodule with yours:</li>
-</ol>
+</ul>
 <pre><code>cd diode-os
 git rm -f anki/victor
 rm -rf anki/victor .git/modules/anki/victor
