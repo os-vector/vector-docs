@@ -2,6 +2,8 @@
 
 Vector runs on an embedded Linux image built with Yocto Jethro.
 
+This describes Vector's *original* os. WireOS (and other CFW) uses a newer version of Yocto.
+
 ## What is Yocto?
 
 Yocto is a toolkit for creating your own embedded Linux "distribution".
