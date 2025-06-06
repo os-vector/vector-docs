@@ -430,6 +430,48 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unlocked-prod" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unlocked Prod
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pvt-running-some-sort-of-dev-ota-like-1603331d" class="md-nav__link">
+    <span class="md-ellipsis">
+      PVT running some sort of dev OTA (like 1.6.0.3331d)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oskr" class="md-nav__link">
+    <span class="md-ellipsis">
+      OSKR
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1092,6 +1134,48 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unlocked-prod" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unlocked Prod
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pvt-running-some-sort-of-dev-ota-like-1603331d" class="md-nav__link">
+    <span class="md-ellipsis">
+      PVT running some sort of dev OTA (like 1.6.0.3331d)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oskr" class="md-nav__link">
+    <span class="md-ellipsis">
+      OSKR
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1151,6 +1235,25 @@
 </ul>
 </li>
 </ul>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
+<h3 id="unlocked-prod">Unlocked Prod<a class="headerlink" href="#unlocked-prod" title="Permanent link">&para;</a></h3>
+<p>In the BLE terminal in recovery, after connecting him to Wi-Fi:</p>
+<pre><code>ota-start http://ota.pvic.xyz/vic/latest/dev.ota
+</code></pre>
+<h3 id="pvt-running-some-sort-of-dev-ota-like-1603331d">PVT running some sort of dev OTA (like 1.6.0.3331d)<a class="headerlink" href="#pvt-running-some-sort-of-dev-ota-like-1603331d" title="Permanent link">&para;</a></h3>
+<pre><code>systemctl stop anki-robot.target
+mount -o rw,remount,exec /data
+curl -o /data/update-engine http://ota.pvic.xyz/update-engine
+chmod +rwx /data/update-engine
+/data/update-engine http://ota.pvic.xyz/vic/latest/dev.ota -v
+</code></pre>
+<h3 id="oskr">OSKR<a class="headerlink" href="#oskr" title="Permanent link">&para;</a></h3>
+<pre><code>systemctl stop anki-robot.target
+mount -o rw,remount,exec /data
+curl -o /data/update-engine http://ota.pvic.xyz/update-engine
+chmod +rwx /data/update-engine
+/data/update-engine http://ota.pvic.xyz/vic/latest/oskr.ota -v
+</code></pre>
 
 
 
