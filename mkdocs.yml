@@ -12,14 +12,11 @@ markdown_extensions:
 
 docs_dir: documents
 extra:
-  generator: false
-extra_css:
-  - stylesheets/extra.css
+  generator: true
 
 plugins:
   - search:
-      prebuild_index: true
-  - localsearch
+      enabled: true
 
 theme:
   name: material
@@ -28,6 +25,6 @@ theme:
     primary: deep purple
   features:
     - search.suggest
-    - navigation.instant
     - navigation.sections
     - navigation.expand
+    - navigation.footer
