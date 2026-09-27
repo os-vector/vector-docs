@@ -1,0 +1,48 @@
+# ClaudOS
+
+ClaudOS is created by Claudix29.
+
+ClaudOS' aim is to make Vector more lively and improve/add features to enhance user experience.
+
+This OS is also meant to be a way for me to learn.
+
+It's mantained at [Claudix29/claud-os](https://github.com/claudix29/claud-os)
+ and it is based off of [wire-os](https://github.com/os-vector/wire-os).
+
+ [Info and OTAs](https://claudix.my.to/website/claudos.html) can be found on Claudix29's [website](https://claudix.my.to).
+
+## Custom ClaudOS features
+- Added new backpack animations and customized existing ones:
+  - new idle and sleeping animations (sleeping anim code has been imported from [Viccyware](https://viccyware.com/)) that make Vector more lively and his lights more interactive. 
+- Night time has been shifted to 23:00.
+- ClaudOS bootscreen.
+- Removed snoring at night. (by [Amy](https://github.com/hamsteronpotato)).
+- Auto-updates from ClaudOS server.
+- Vector saying "dealer" correctly.
+- Vector Request To Play Blackjack fully functional:
+  - Vector will sometimes ask you to play blackjack. You can either accept and start playing or decline.
+- Triple click on back button to mute/unmute Vector's speaker:
+  - A new custom animation has been added for this.
+  - When unmuted, the previous volume will be restored.
+  - Once speaker-muted, the status will persist through reboots. A triple click will disable it again.
+  - Made by [Claudix29(me)](https://github.com/claudix29), [Amy](https://github.com/hamsteronpotato) and [Emily/Switch-modder](https://github.com/Switch-modder).
+ - Voice servers are pointed by default at https://anki2.ca/1.6/ . If you previously authenticated with another server, it will persist.
+## Installation
+
+### Unlocked Prod
+
+#### Easy method
+It can be installed in recovery from [Froggitti's websetup](https://websetup.froggitti.net/) or from the [WireOS recovery installer](https://youtu.be/wTO1LqfLc1Y?si=RN0fK05MckJIxAJm).
+
+ #### Other methods
+In the BLE terminal in recovery, after connecting him to Wi-Fi:
+
+```
+ota-start http://modder.my.to:8433/vic/latest/dev.ota
+```
+or via ssh
+```
+update-os http://modder.my.to:8433/vic/latest/dev.ota
+```
+
+If needed, OTAs are hosted [here](https://claudix.my.to/website/otas/full/) (oskr OTAs are also available).

@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="all.html">
+        <link rel="prev" href="../2.-Available-CFW/7-1.6-rebuild.html">
       
       
-        <link rel="next" href="../8.-Terminology/terminology.html">
+        <link rel="next" href="partitions.html">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>Tips For Developers - Vector Documentation</title>
+        <title>Vector's Software Architecture - Vector Documentation</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#tips-for-developers" class="md-skip">
+        <a href="#vectors-software-architecture" class="md-skip">
           Skip to content
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Tips For Developers
+              Vector's Software Architecture
             
           </span>
         </div>
@@ -600,8 +600,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -612,13 +614,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
@@ -639,7 +639,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -654,10 +654,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../3.-Software-Architecture/architecture.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vector's Software Architecture
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="architecture.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -673,6 +700,120 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-main-os" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The main OS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anki" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        /anki
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="/anki">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vic-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        vic-engine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vic-anim" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        vic-anim
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vic-robot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        vic-robot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vic-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        vic-cloud
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vic-gateway" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        vic-gateway
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        update-engine
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -685,7 +826,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../3.-Software-Architecture/partitions.html" class="md-nav__link">
+      <a href="partitions.html" class="md-nav__link">
         
   
   
@@ -1068,8 +1209,6 @@
       
   
   
-    
-  
   
   
     
@@ -1082,11 +1221,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
         
           
           <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
@@ -1107,7 +1248,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1125,7 +1266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="all.html" class="md-nav__link">
+      <a href="../7.%20Tips%20and%20Tricks/all.html" class="md-nav__link">
         
   
   
@@ -1150,19 +1291,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="devs.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../7.%20Tips%20and%20Tricks/devs.html" class="md-nav__link">
         
   
   
@@ -1178,7 +1310,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -1389,6 +1520,108 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-main-os" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The main OS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anki" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        /anki
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="/anki">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vic-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        vic-engine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vic-anim" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        vic-anim
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vic-robot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        vic-robot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vic-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        vic-cloud
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vic-gateway" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        vic-gateway
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        update-engine
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1407,8 +1640,50 @@
   
 
 
-<h1 id="tips-for-developers">Tips For Developers<a class="headerlink" href="#tips-for-developers" title="Permanent link">&para;</a></h1>
-<p>Helpful tips for developers.</p>
+<h1 id="vectors-software-architecture">Vector's Software Architecture<a class="headerlink" href="#vectors-software-architecture" title="Permanent link">&para;</a></h1>
+<p>Vector's software is broken up into quite a few components.</p>
+<h2 id="the-main-os">The main OS<a class="headerlink" href="#the-main-os" title="Permanent link">&para;</a></h2>
+<p>Vector runs Embedded Linux built with Yocto, using the systemd init system. His processes run as regular daemons.</p>
+<h2 id="anki">/anki<a class="headerlink" href="#anki" title="Permanent link">&para;</a></h2>
+<p>The /anki folder of the ext4 system partition is where the personality lives.</p>
+<p>Built programs are in /anki/bin, libraries in /anki/lib, data (like animations and sounds) exists in /anki/data/assets/cozmo_resources, and environment files exist in /anki/etc.</p>
+<p>The programs are the interesting parts. They communicate with each other via Unix sockets:</p>
+<h3 id="vic-engine">vic-engine<a class="headerlink" href="#vic-engine" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Handles A.I. (such as vision processing), SLAM, and personality. All of the programs inside of Vector eventually communicate with this.</li>
+<li>C++</li>
+</ul>
+<h3 id="vic-anim">vic-anim<a class="headerlink" href="#vic-anim" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Handles text-to-speech, animation playback, procedural eye rendering, sound playback, and wake-word recognition. For the most part, engine tells anim what to do, and anim performs it.</li>
+<li>C++</li>
+</ul>
+<h3 id="vic-robot">vic-robot<a class="headerlink" href="#vic-robot" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Handles communication with the body.</li>
+<li>C++</li>
+</ul>
+<h3 id="vic-cloud">vic-cloud<a class="headerlink" href="#vic-cloud" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Handles communication with the cloud: voice data (after the wake-word), jdocs (user information/settings), token (authentication).</li>
+<li>Go</li>
+</ul>
+<h3 id="vic-gateway">vic-gateway<a class="headerlink" href="#vic-gateway" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Handles SDK communications. It hosts Vector's port :443. It essentially takes in gRPC requests, parses them, then tells engine what to do depending on the contents of the requests. It can also grab data from engine.</li>
+<li>In WireOS, this has been merged into vic-cloud.</li>
+<li>Go</li>
+</ul>
+<h3 id="update-engine">update-engine<a class="headerlink" href="#update-engine" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Handles OTA updates. A user can initiate this via BLE (or over SSH directly), or systemd can initiate it. A systemd timer daemon is set to initiate this a few times a day to check for updates from whatever URL is set in /anki/etc/update-engine.env.</li>
+<li>Python (Legacy)<ul>
+<li>Orignal OS: Python 2.7.3</li>
+<li>Was updated to Python 3.13.2 in older versions of WireOS</li>
+</ul>
+</li>
+<li>C++ in the latest CFWs</li>
+</ul>
 
 
 
@@ -1438,7 +1713,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="all.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Tips For All">
+          <a href="../2.-Available-CFW/7-1.6-rebuild.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: 1.6-rebuild">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1448,20 +1723,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Tips For All
+                1.6-rebuild
               </div>
             </div>
           </a>
         
         
           
-          <a href="../8.-Terminology/terminology.html" class="md-footer__link md-footer__link--next" aria-label="Next: Terminology">
+          <a href="partitions.html" class="md-footer__link md-footer__link--next" aria-label="Next: Partitions">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Terminology
+                Partitions
               </div>
             </div>
             <div class="md-footer__button md-icon">

@@ -1,0 +1,25 @@
+# History of Anki and Digital Dream Labs
+
+-   mid 2017 - late 2018: Vector was created.
+    -   Anki wanted to create a Cozmo 2.0 of sorts. A Cozmo which could be fully autonomous.
+    -   In order to create a robot which would actually sell, they created a new personality for this robot.
+-   late 2018 - early 2019: Anki was creating many different products at the same time in order to try to stay afloat in a VC-led environment.
+    -   Bingo
+        -   There would have been a mini version and a big version.
+        -   Both would roam the floor on two wheels, performing helpful tasks. Kind of like Amazon Astro
+    -   Pirouette
+        -   Appears to be a kiosk but cute.
+        -   Not much is known.
+        -   Might have been created for the company Anki's board planned to sell Anki to at some point.
+    -   Whiskey
+        -   Actually got pretty far into development.
+        -   Essentially a Vector but with two extra ToF sensors on the face for much better spatial awareness (theoretically).
+        -   Some DVT1 prototypes have made it out into the wild.
+-   April 29th, 2019: Anki announced their liquidation.
+-   May 1st, 2019: Anki officially went out of business.
+-   January 2020: Digital Dream Labs announced that they bought the assets.
+-   TODO: recount the misdoings of DDL in this time
+-   July 2023 - September 2024: DDL servers go down due to them not paying the bill for their AWS instance while they were still taking money from their customers
+-   September 2024: DDL gets new CEO Zack Anton and the servers come up a few weeks later.
+-   2024: `victor` and `vicOS-oelinux` leaked to github with encrypted keys.
+-   April 30th, 2025: Vector's keys get cracked and an unlock OTA has been released which can convert any prod robot into a completely unlocked robot!
