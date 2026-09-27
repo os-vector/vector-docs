@@ -32,7 +32,7 @@ It's mantained at [Claudix29/claud-os](https://github.com/claudix29/claud-os)
 ### Unlocked Prod
 
 #### Easy method
-It can be installed in recovery from [Froggitti's websetup](https://websetup.froggitti.net/) or from the [WireOS recovery installer](https://youtu.be/wTO1LqfLc1Y?si=RN0fK05MckJIxAJm).
+It can be installed in recovery from [skittle's websetup](https://websetup.skittle.dev/) or from the [WireOS recovery installer](https://youtu.be/wTO1LqfLc1Y?si=RN0fK05MckJIxAJm).
 
  #### Other methods
 In the BLE terminal in recovery, after connecting him to Wi-Fi:

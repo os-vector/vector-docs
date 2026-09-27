@@ -56,7 +56,7 @@ Use this if you have a prod robot which you unlocked with unlock-prod.ota.
 
 There are a few ways to install WireOS in this case.
 
-1. WireOS is available at [froggitti's Dev Vector web setup](https://websetup.froggitti.net) under the Custom Firmware stack.
+1. WireOS is available at [skittle's Dev Vector web setup](https://websetup.skittle.dev) under the Custom Firmware stack.
 
 2. Or, in the BLE terminal in recovery, after connecting him to Wi-Fi:
 

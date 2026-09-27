@@ -1,9 +1,9 @@
 # redOS
 
-redOS is created by [ekeleze](https://github.com/ekeleze) and [froggitti](https://github.com/froggitti), and is maintained at [purpl-org/redOS](https://github.com/purpl-org/redOS).
+redOS is created by [ekeleze](https://github.com/ekeleze) and [skittle](https://github.com/froggitti), and is maintained at [purpl-org/redOS](https://github.com/purpl-org/redOS).
 
 redOS is a red themed, "experimental" custom firmware which will introduce new/quirky features to Vector.
 
 Like purplOS, it has eye scanlines and sounds from 1.6.0.3331, and is based off of [wire-os](https://github.com/os-vector/wire-os-victor)
 
-redOS is available at [froggitti's Dev Vector web setup](https://devsetup.froggitti.net).
+redOS is available at [skittle's Dev Vector web setup](https://websetup.skittle.dev).
