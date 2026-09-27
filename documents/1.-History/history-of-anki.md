@@ -22,4 +22,4 @@
 -   July 2023 - September 2024: DDL servers go down due to them not paying the bill for their AWS instance while they were still taking money from their customers
 -   September 2024: DDL gets new CEO Zack Anton and the servers come up a few weeks later.
 -   2024: `victor` and `vicOS-oelinux` leaked to github with encrypted keys.
--   April 30th, 2025: Vector's keys get cracked and a unlock ota has been released to convert prod bots into dev bots.
+-   April 30th, 2025: Vector's keys get cracked and an unlock OTA has been released which can convert any prod robot into a completely unlocked robot!
