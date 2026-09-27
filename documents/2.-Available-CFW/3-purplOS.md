@@ -1,6 +1,6 @@
 # purplOS
 
-purplOS is a custom firmware created by [froggitti](https://github.com/froggitti) and is maintained at [purpl-org/purplOS](https://github.com/purpl-org/purplOS).
+purplOS is a custom firmware created by [skittle](https://github.com/froggitti) and is maintained at [purpl-org/purplOS](https://github.com/purpl-org/purplOS).
 
 purplOS's purpose is to give Vector a purple theme.
 
@@ -15,4 +15,4 @@ purplOS is based off of [wire-os](https://github.com/os-vector/wire-os-victor).
 - "purpl" logo when you turn on the robot (based off of organization logo)
   More to come!
 
-purplOS is available at [Froggitti's Dev Vector web setup](https://websetup.froggitti.net) under the Custom Firmware stack.
+purplOS is available at [skittle's Dev Vector web setup](https://websetup.skittle.dev) under the Custom Firmware stack.
