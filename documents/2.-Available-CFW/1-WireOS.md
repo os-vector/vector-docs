@@ -1,12 +1,14 @@
 # WireOS
 
-WireOS is an OS created by Wire / kercre123.
+[WireOS](https://github.com/os-vector/wire-os) is an OS created by Wire / kercre123.
 
 Wire's goal is to provide a stable, up-to-date, and easily-buildable base for others to clone and modify.
 
 It is based off of the leaked 2.0.1.6076 source code.
 
 ## Changes made compared to normal DDL firmware
+
+The [WireOS README](https://github.com/os-vector/wire-os#differences-compared-to-normal-vector-fw) will always be the most up-to-date resource for this.
 
 - More normal-looking eyes on Vector 2.0
 - A fixed loosepixel animation

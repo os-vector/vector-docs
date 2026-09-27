@@ -1604,11 +1604,11 @@
 <h2 id="why-softfp-what-that-means">Why softfp + what that means<a class="headerlink" href="#why-softfp-what-that-means" title="Permanent link">&para;</a></h2>
 <p>Qualcomm provides proprietary binary "blobs" for some hardware communication. These are required for Bluetooth and camera functionality. These were built to run in an Android environment, and 32-bit Android is built with <code>softfp</code> for historical reasons, so the blobs were also built with <code>softfp</code>.</p>
 <p>This means that pre-compiled shared libraries made for SBCs like the Raspberry Pi won't work unless you jump through a few hoops.</p>
-<p>Example: Picovoice Porcupine, the new wake-word engine for WireOS, is shipped as a static library for various platforms. To get this to work in Vector's OS, I had to statically compile a <code>pv_server</code> program and have <code>vic-anim</code> communicate with it via IPC.</p>
+<p>As of September 2026, WireOS uses a hardfp OS (after much shimming), and this is no longer a problem.</p>
 <h2 id="kernel">Kernel<a class="headerlink" href="#kernel" title="Permanent link">&para;</a></h2>
-<p>Vector runs an older version of the msm-3.18 kernel (3.18.66).</p>
+<p>Original Vector firmware runs an older version of the msm-3.18 kernel (3.18.66). WireOS uses a more modern msm-4.9 (4.9.277, LF.UM.8.7) kernel.</p>
 <h2 id="efforts-to-upgrade-this">Efforts to upgrade this<a class="headerlink" href="#efforts-to-upgrade-this" title="Permanent link">&para;</a></h2>
-<p>WireOS is now using a the latest possible Yocto base - Yocto Whinlatter. It uses glibc 2.42 (latest as of January 2026).</p>
+<p>WireOS is now using the latest Yocto LTS base - Yocto Wrynose. It uses glibc 2.43.</p>
 <p>This means that <em>all</em> new CFW uses this base.</p>
 <h2 id="history">History<a class="headerlink" href="#history" title="Permanent link">&para;</a></h2>
 <p>DVT1 and early DVT2 prototype Vectors ran Android 7.1. Anki didn't really use any of the Android bits, and just dug down to the bare Linux underneath. They only used it while they were figuring out how to get Yocto working.</p>

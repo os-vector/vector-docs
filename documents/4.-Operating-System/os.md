@@ -26,15 +26,15 @@ Qualcomm provides proprietary binary "blobs" for some hardware communication. Th
 
 This means that pre-compiled shared libraries made for SBCs like the Raspberry Pi won't work unless you jump through a few hoops.
 
-Example: Picovoice Porcupine, the new wake-word engine for WireOS, is shipped as a static library for various platforms. To get this to work in Vector's OS, I had to statically compile a `pv_server` program and have `vic-anim` communicate with it via IPC.
+As of September 2026, WireOS uses a hardfp OS (after much shimming), and this is no longer a problem.
 
 ## Kernel
 
-Vector runs an older version of the msm-3.18 kernel (3.18.66).
+Original Vector firmware runs an older version of the msm-3.18 kernel (3.18.66). WireOS uses a more modern msm-4.9 (4.9.277, LF.UM.8.7) kernel.
 
 ## Efforts to upgrade this
 
-WireOS is now using a the latest possible Yocto base - Yocto Whinlatter. It uses glibc 2.42 (latest as of January 2026).
+WireOS is now using the latest Yocto LTS base - Yocto Wrynose. It uses glibc 2.43.
 
 This means that *all* new CFW uses this base.
 
