@@ -59,4 +59,4 @@ These differences were already laid out above. A couple extra notes:
 - Vector 1.0's camera is arguably better than 2.0's. The sensor size is basically the same, thus 2.0's camera lets in less light, which causes the image to have bad HDR and contrast.
 - Vector 1.0's screen is also better than 2.0's. Bigger, higher res.
 - **All modern CFW is PERFECTLY compatible with both Vector 1.0 and 2.0.**
-  - All modern CFW is based on WireOS, which itself is based on an official DDL release (2.0.1) which officially supports both robots
+    - All modern CFW is based on WireOS, which itself is based on an official DDL release (2.0.1) which officially supports both robots

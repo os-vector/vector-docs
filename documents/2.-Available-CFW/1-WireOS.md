@@ -27,10 +27,10 @@ It is based off of the leaked 2.0.1.6076 source code.
     - WireOS is now built with the latest Yocto LTS release as of September 2026 (Wrynose)
     - Clang 20 is now being used for the `victor` software rather than 5.0.1
     - msm-3.18 -> msm-4.9 kernel
-       - Vector now uses 4.9.277 / LF.UM.8.7, the latest kernel released by Qualcomm for this chip
+        - Vector now uses 4.9.277 / LF.UM.8.7, the latest kernel released by Qualcomm for this chip
     - softfp -> hardfp
-       - Vector had a softfp OS forever due to soft blobs which had to run. After a bit of shimming, everything now works in a hardfp OS, and the OS is now compiled as hardfp.
-       - Brings software compatibility up to ~Pi 2
+        - Vector had a softfp OS forever due to soft blobs which had to run. After a bit of shimming, everything now works in a hardfp OS, and the OS is now compiled as hardfp.
+        - Brings software compatibility up to ~Pi 2
 - Gamma correction
     - His camera now has much less trouble with brightly lit objects
     - Was an Anki-era PR, not my work

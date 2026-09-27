@@ -1606,11 +1606,15 @@
 <li>Original OS was built from an ancient Qualcomm BSP based on Yocto Jethro (2015)</li>
 <li>WireOS is now built with the latest Yocto LTS release as of September 2026 (Wrynose)</li>
 <li>Clang 20 is now being used for the <code>victor</code> software rather than 5.0.1</li>
-<li>msm-3.18 -&gt; msm-4.9 kernel</li>
+<li>msm-3.18 -&gt; msm-4.9 kernel<ul>
 <li>Vector now uses 4.9.277 / LF.UM.8.7, the latest kernel released by Qualcomm for this chip</li>
-<li>softfp -&gt; hardfp</li>
+</ul>
+</li>
+<li>softfp -&gt; hardfp<ul>
 <li>Vector had a softfp OS forever due to soft blobs which had to run. After a bit of shimming, everything now works in a hardfp OS, and the OS is now compiled as hardfp.</li>
 <li>Brings software compatibility up to ~Pi 2</li>
+</ul>
+</li>
 </ul>
 </li>
 <li>Gamma correction<ul>
