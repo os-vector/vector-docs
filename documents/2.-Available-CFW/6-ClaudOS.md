@@ -13,20 +13,20 @@ It's mantained at [Claudix29/claud-os](https://github.com/claudix29/claud-os)
 
 ## Custom ClaudOS features
 - Added new backpack animations and customized existing ones:
-  - new idle and sleeping animations (sleeping anim code has been imported from [Viccyware](https://viccyware.com/)) that make Vector more lively and his lights more interactive. 
+    - new idle and sleeping animations (sleeping anim code has been imported from [Viccyware](https://viccyware.com/)) that make Vector more lively and his lights more interactive. 
 - Night time has been shifted to 23:00.
 - ClaudOS bootscreen.
 - Removed snoring at night. (by [Amy](https://github.com/hamsteronpotato)).
 - Auto-updates from ClaudOS server.
 - Vector saying "dealer" correctly.
 - Vector Request To Play Blackjack fully functional:
-  - Vector will sometimes ask you to play blackjack. You can either accept and start playing or decline.
+    - Vector will sometimes ask you to play blackjack. You can either accept and start playing or decline.
 - Triple click on back button to mute/unmute Vector's speaker:
-  - A new custom animation has been added for this.
-  - When unmuted, the previous volume will be restored.
-  - Once speaker-muted, the status will persist through reboots. A triple click will disable it again.
-  - Made by [Claudix29(me)](https://github.com/claudix29), [Amy](https://github.com/hamsteronpotato) and [Emily/Switch-modder](https://github.com/Switch-modder).
- - Voice servers are pointed by default at https://anki2.ca/1.6/ . If you previously authenticated with another server, it will persist.
+     - A new custom animation has been added for this.
+     - When unmuted, the previous volume will be restored.
+     - Once speaker-muted, the status will persist through reboots. A triple click will disable it again.
+     - Feature made by [Claudix29(me)](https://github.com/claudix29), [Amy](https://github.com/hamsteronpotato) and [Emily/Switch-modder](https://github.com/Switch-modder).
+ - Voice servers are pointed by default at https://anki2.ca/cldos/ . If you previously authenticated with another server, it will persist. If you want to authenticate with community servers use https://anki2.ca/cldos/
 ## Installation
 
 ### Unlocked Prod
