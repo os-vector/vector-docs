@@ -52,7 +52,7 @@ The [WireOS README](https://github.com/os-vector/wire-os#differences-compared-to
 
 ### Unlocked Prod
 
-Use this if you have a prod robot which you unlocked with [unlock-prod.ota](https://ota.pvic.xyz/unlock/unlock-prod.ota).
+Use this if you have a prod robot which you unlocked with [unlock-prod.ota](http://websetup.skittle.dev/ota-storage/utility/Unlock-Prod.ota).
 
 There are a few ways to install WireOS in this case.
 
